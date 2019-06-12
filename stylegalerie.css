@@ -1,0 +1,102 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #373737;
+    background-image: url(images/pattern_04bis.jpg)
+
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("fonts/Montserrat/Montserrat-Italic.ttf");
+}
+
+@font-face {
+    font-family: "cinzel";
+    src: url("fonts/Cinzel/Cinzel-Bold.ttf");
+}
+
+
+header{
+    display: flex;
+    height: 25%;
+    background-image:radial-gradient(circle at center, #373737, black);
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+
+    color: #C0B283;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20%;
+    font-family: "cinzel"; 
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 1.5%;
+}
+li{
+    margin-right: 10vh;
+}
+a{
+    text-decoration: none;
+    color:#C0B283;
+}
+
+.logo{
+    width: 10%;
+    height: 7%;
+}
+
+.corps{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.corps{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 70% 52%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+.p1,.p2, .p3, .p4, .p5, .p6{
+    height: 25vh;
+    width: 20vw;
+    border: 10px solid black;
+    opacity: O.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.p1{
+    background-image: url(images/img_04.jpg); 
+}
+
+.p2{
+    background-image: url(images/img_09.jpg); 
+}
+
+.p3{
+    background-image: url(images/img_05.jpg); 
+}
+
+.p4{
+    background-image: url(images/background.jpg); 
+}
+
+.p5{
+    background-image: url(images/img_08.jpg); 
+}
+
+.p6{
+    background-image: url(images/img_11.jpg); 
+}

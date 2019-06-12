@@ -1,0 +1,130 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #373737;
+    background-image: url(images/pattern_04bis.jpg)
+
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("fonts/Montserrat/Montserrat-Italic.ttf");
+}
+
+@font-face {
+    font-family: "cinzel";
+    src: url("fonts/Cinzel/Cinzel-Bold.ttf");
+}
+
+
+header{
+    display: flex;
+    height: 25%;
+    background-image:radial-gradient(circle at center, #373737, black);
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+
+    color: #C0B283;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20%;
+    font-family: "cinzel"; 
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 1.5%;
+}
+li{
+    margin-right: 10vh;
+}
+a{
+    text-decoration: none;
+    color:#C0B283;
+}
+
+.logo{
+    width: 10%;
+    height: 7%;
+}
+
+.corps{
+    display: flex;
+}
+
+.montres{
+    height: 32%;
+    width: 40%;
+    background-image: url(images/img_03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 10px solid black;
+    top: 25%;
+    left: 11%;
+}
+
+.montres:hover{
+    background-image: url(images/img_03var.jpg);
+    opacity:  0.9;
+}
+
+.montresagousset{
+    height: 32%;
+    width: 19%;
+    background-image: url(images/img_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 10px solid black;
+    top: 61%;
+    left: 11%;
+}
+
+.montresagousset:hover{
+    background-image: url(images/img_01var.jpg);
+    opacity:  0.9;
+}
+
+.reparation{
+    height: 32%;
+    width: 19%;
+    background-image: url(images/img_11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    border: 10px solid black;
+    top: 61%;
+    left: 32%;
+}
+
+.reparation:hover{
+    background-image: url(images/img_11var.jpg);
+    opacity:  0.9;
+}
+
+.horlogeriemonumentale{
+    height: 70%;
+    width: 35%;
+    background-image: url(images/img_07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -58px 0px;
+    position: absolute;
+    border: 10px solid black;
+    top: 25%;
+    right: 5%;
+}
+
+.horlogeriemonumentale:hover{
+    background-position: -58px 0px;
+    background-image: url(images/img_07var.jpg);
+    opacity:  0.9;
+}
+
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="stylecontact.css" rel="stylesheet">
+    <title> Contact </title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="images/olivier-logo.png" alt="le logo d'Olivier">
+        <nav>
+            <ul>
+                <li><a href="file:///home/marie/cours/HTML-CSS/Site%20Vitrine/indexaccueil.html"> Accueil</a></li>
+                <li><a href="file:///home/marie/cours/HTML-CSS/Site%20Vitrine/indexservices.html"> Services</a></li>
+                <li><a href="file:///home/marie/cours/HTML-CSS/Site%20Vitrine/indexapropos.html"> A propos</a></li>
+                <li><a href="file:///home/marie/cours/HTML-CSS/Site%20Vitrine/indexcontact.html"> Contact </a></li>
+                <li><a href="file:///home/marie/cours/HTML-CSS/Site%20Vitrine/indexgalerie.html"> Galerie </a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="corps">
+        <div class="gauche"> <!--fiche contact-->
+            <div class="formulaire">
+                <form method="POST" action="traitement.php">
+                    <h3>Nous contacter:</h3>
+                    <fieldset>
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom"><br><br>
+                        <label for="prénom">Prénom :</label>
+                        <input type="text" name="prénom" id="prénom"><br><br>
+                        <label for="mail">Adresse mail :</label>
+                        <input type="email" name="mail" id="mail"><br><br>
+                        <label for="tel">Téléphone (optionnel) :</label>
+                        <input type="number" name="tel" id="tel"><br><br>
+                    </fieldset>
+                    <fieldset class="mess">
+                        <label for="question">Votre message :</label>
+                        <textarea name="question" id="question"></textarea><br><br>
+                        <input type="submit" value="envoyer" class="button">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="droite"> <!-- adresse et carte-->
+            <div class="adr">
+                <div class="p">Olivier</div>
+                <div class="adresse">12 rue Rousseau, 1201 Genève</div>
+                <div class="telephone">Téléphone: 00.00.00.00.00</div>
+            </div>
+            <iframe class="carte"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.1606153186576!2d6.141521515357298!3d46.20725979157494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c6527d9184b05%3A0xd6f7bd28bb3849c!2sRue+Rousseau+12%2C+1201+Gen%C3%A8ve%2C+Suisse!5e0!3m2!1sfr!2sfr!4v1559044002512!5m2!1sfr!2sfr"
+                </iframe> </div> </body> <footer></footer>
+
+</html>

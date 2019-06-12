@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #373737;
+    background-image: url(images/pattern_04bis.jpg)
+
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("fonts/Montserrat/Montserrat-Italic.ttf");
+}
+
+@font-face {
+    font-family: "cinzel";
+    src: url("fonts/Cinzel/Cinzel-Bold.ttf");
+}
+
+header{
+    display: flex;
+    height: 25%;
+    background-image:radial-gradient(circle at center, #373737, black);
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+
+    color: #C0B283;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20%;
+    font-family: "cinzel";
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding-top: 1.5%;
+}
+li{
+    margin-right: 10vh;
+}
+a{
+    text-decoration: none;
+    color:#C0B283;
+}
+
+.logo{
+    width: 10%;
+    height: 7%;
+}
+
+.accueil{
+    width: 60%;
+    height: 50%;
+    border: #C0B283 solid 8px;
+    background-color: #373737;
+    opacity: 0.9;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo2{
+    width: 55%;
+    height: 36%;
+    background-image: url(images/olivier-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.texte{
+
+    max-height: 15%;
+    color: #C0B283;
+    font-size: 20px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.btn{
+    width: 30%;
+    height: 10%;
+    background-color: black;
+}
+
+.button{
+    box-shadow: -50px -50px 0px -50px #9fb4f2;
+	background-color: #DCD0C0;
+	border-radius:10px;
+	border:5px solid #C0B283;
+	display:inline-block;
+	cursor:pointer;
+	color: #373737;
+	font-family:Arial;
+    font-size:21px;
+    text-decoration:none;
+    width: 9vw;
+    height: 9vh;
+    text-align: center;
+}
+
+
+.button:hover{
+    background-color: #373737;
+    color: #C0B283;
+}
+
